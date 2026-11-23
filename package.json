@@ -1,0 +1,13 @@
+{
+  "name": "detran-mongodb-crud",
+  "version": "1.0.0",
+  "private": true,
+  "main": "crud.js",
+  "scripts": {
+    "init-db": "node mongo-init.js",
+    "start": "node crud.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.20.0"
+  }
+}
